@@ -1,0 +1,18 @@
+file: /Users/pXYZ/Dropbox/Git/robulin/results/mm-785/wts-auc-eps.pkl
+x_var: epsilon
+x_descr: "adversarial $\\ell_\\infty$-bound $\\varepsilon$ for campaign 735"
+band_min: 0.01
+band_max: 0.035
+hmin: 0.748
+hmax: 0.765
+xlabel: "$\\varepsilon$"
+ylabels:
+- "% of abs(wts) > 1% of max"
+- auc
+vars:
+- w_pct1pct
+- auc
+ymin2: 0.60
+ymax2: 0.78
+
+

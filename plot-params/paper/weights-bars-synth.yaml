@@ -1,0 +1,18 @@
+file: /Users/pXYZ/Dropbox/Git/robulin/results/synth-eps-bad-20180926-162717.pkl
+ylabel: weight
+title: "Feature weights: natural and adversarial training"
+field: wts_dict
+absval: False
+names:
+- nat
+- adv
+rows:
+- 0
+- 5
+sort:
+dist: 100
+index: feature
+var: training
+threshold: 0.01
+prefix:
+ignore:

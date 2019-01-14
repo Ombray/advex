@@ -1,0 +1,18 @@
+file: /Users/pXYZ/Dropbox/Git/robulin/results/synth-eps-bad-20180926-162717.pkl
+x_var: l1_reg
+x_descr: "$\\ell_1$-reg param $\\lambda$ using FTRL optimizer"
+band_min: 0.5
+band_max: 1.0
+xlabel: "$\\lambda$"
+ylabels:
+- "L1 norm of x wts"
+- "L1 norm of r wts"
+- auc
+vars:
+- Wts_x_L1
+- Wts_r_L1
+- auc
+ymin2: 0.8
+ymax2: 1.0
+
+

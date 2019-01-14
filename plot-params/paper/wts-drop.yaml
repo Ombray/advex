@@ -1,0 +1,18 @@
+file: /Users/pXYZ/Dropbox/Git/robulin/results/synth-eps-bad-20180926-162717.pkl
+field: wts_dict
+names:
+- nat
+- adv
+rows:
+- 0
+- 1
+sort: auc
+dist: 0.01
+index: feature
+title: "abs feature weights by percentile"
+var: training
+value: weight
+threshold: 0.01
+prefix:
+ignore:
+

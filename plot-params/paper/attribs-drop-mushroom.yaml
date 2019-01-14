@@ -1,0 +1,18 @@
+file: /Users/pXYZ/Dropbox/Git/robulin/results/synth-eps-bad-20180926-162717.pkl
+field: f_g_dict
+names:
+- nat
+- adv
+rows:
+- 0
+- 7
+sort:
+dist: 0.01
+index: feature
+title: "IG-based Feature Impact (FI) by percentile"
+var: training
+value: Feature Impact (FI)
+threshold: 0.01
+prefix:
+ignore:
+

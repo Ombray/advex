@@ -1,0 +1,19 @@
+file: /Users/pXYZ/Dropbox/Git/robulin/results/synth-eps-bad-20180926-162717.pkl
+ylabel: Feature Impact (FI)
+title: "IG-based Feature Impact (FI): natural and adversarial training"
+field: f_g_dict
+absval: True
+names:
+- nat
+- adv
+rows:
+- 0
+- 4
+sort:
+dist: 100
+index: feature
+var: training
+threshold: 0.05
+xtick_font_size: 8
+prefix:
+ignore:

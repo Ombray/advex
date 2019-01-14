@@ -1,0 +1,45 @@
+# general
+dataset: mushroom
+log: e
+eager: False
+
+# model, other params
+fields:
+- auc
+- acc
+- wts_ent
+- wts_1pct
+- wts_pct1pct
+- wts_l1
+- wts_l1_linf
+- g_ent
+- f_g_ent
+perturb_frac: 1.0
+test_perturb_frac: 0.0
+perturb_norm_bound: 0.0
+perturb_norm_order: -1
+std: True
+epochs: 100
+activation: sigmoid
+batch_size: 20
+adv_reg_lambda: 0.0
+clean_pre_train: 0.0
+lr: 0.01
+l1_reg: 0.0
+l2_reg: 0.0
+optimizer: adam
+multi_gpu: False
+
+grid:
+  l1_reg:
+  - 0.00
+  - 0.01
+  - 0.02
+  - 0.03
+  - 0.05
+  - 0.08
+  - 0.10
+  - 0.14
+  - 0.18
+  - 0.20
+

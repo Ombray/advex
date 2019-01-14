@@ -1,0 +1,18 @@
+file: /Users/pXYZ/Dropbox/Git/robulin/results/synth-eps-bad-20180926-162717.pkl
+x_var: l1_reg
+x_descr: "$\\ell_1$-reg param $\\lambda$ with SGD optimizer"
+band_min: 0.01
+band_max: 0.02
+hmin: 0.966
+hmax: 0.976
+xlabel: "$\\lambda$"
+ylabels:
+- "% of abs(wts) > 1% of max"
+- auc
+vars:
+- wts_pct1pct
+- auc
+ymin2: 0.915
+ymax2: 0.976
+
+

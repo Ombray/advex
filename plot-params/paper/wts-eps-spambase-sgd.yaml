@@ -1,0 +1,18 @@
+file: /Users/pXYZ/Dropbox/Git/robulin/results/synth-eps-bad-20180926-162717.pkl
+x_var: epsilon
+x_descr: "adversarial $\\ell_\\infty$-bound $\\varepsilon$ using SGD optimizer"
+band_min: 0.4
+band_max: 0.6
+hmin: 0.966
+hmax: 0.976
+xlabel: "$\\varepsilon$"
+ylabels:
+- "% of abs(wts) > 1% of max"
+- auc
+vars:
+- wts_pct1pct
+- auc
+ymin2: 0.955
+ymax2: 0.976
+
+
